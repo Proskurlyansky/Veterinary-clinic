@@ -1,0 +1,144 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.back_color {
+  background-color: #fcc302;
+}
+
+.back_nav {
+  background-color: #daac00;
+}
+
+.nav_menu {
+  font-family: 'Poppins';
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.button_search {
+  background-color: #00bec9;
+  margin-left: -7px;
+}
+
+.input_search {
+  background-color: #fcc302;
+}
+
+/* block-1 */
+
+.b1_container {
+  padding: 84px 0;
+}
+
+.b1_title_text {
+  color: #ffffff;
+  font-family: 'Poppins', Bold;
+  font-size: 64px;
+  font-weight: 600;
+  letter-spacing: 0.67px;
+}
+
+.b1_text {
+  color: #ffffff;
+  font-family: 'Poppins';
+  font-size: 28px;
+  font-weight: 300;
+}
+
+.b1_button_1 {
+  border-radius: 7px;
+  background-color: #00bec9;
+  font-family: "Poppins", Bold;
+  font-size: 20px;
+  font-weight: 400;
+  width: 150px;
+  border: 3px solid #00bec9;
+  padding: 14px;
+}
+
+.b1_button_1 a {
+  color: #ffffff;
+  text-decoration: none;
+  width: 114px;
+  height: 17px;
+
+}
+
+.b1_button_2 {
+  font-family: "Poppins" ,Bold;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.21px; 
+  border-radius: 7px;
+  border: 3px solid #ffffff;
+  width: 150px;
+  height: 67px;
+  padding: 14px;
+}
+
+.b1_button_2 a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.img_dog {
+  padding: 15px;
+}
+
+/* block-2 */
+
+.b2_container {
+  padding: 134px 0;
+  
+}
+
+.b2_title_text {
+  color: #313243;
+  font-family: "Poppins", Bold;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.b2_text {
+  color: #313243;
+  font-family: "Poppins";
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 0.29px;
+}
+
+.b2_button {
+  font-family: "Poppins" ,Bold;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.21px; 
+  border-radius: 7px;
+  background-color: #fcc302;
+  width: 150px;
+  border: 3px solid #fcc302;
+  padding: 14px;
+}
+
+.b2_button a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.b2_img img {
+  box-shadow: -38px 33px #fcc302;
+}
+
+/* .b2_test {
+  background-color: #fcc302;
+  width: 242px;
+  height: 198px;
+} */
+
+/* footer */
+
+.back_footer {
+  background-color: #343434;
+}
+
+

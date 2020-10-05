@@ -29,6 +29,7 @@ body {
 
 .b1_container {
   padding: 84px 0;
+  background-size: cover;
 }
 
 .b1_title_text {
@@ -125,20 +126,71 @@ body {
   text-decoration: none;
 }
 
-.b2_img img {
-  box-shadow: -38px 33px #fcc302;
+.b2_img img{
+  position: relative;
+  z-index: 2;
 }
 
-/* .b2_test {
-  background-color: #fcc302;
-  width: 242px;
-  height: 198px;
-} */
+.b2_back {
+  position: absolute;
+  z-index: 1;
+  top: 295px;
+  left: -30px;
+}
+
+/* block 3 */
+
+.b3_container {
+  padding: 96px 0;
+}
+
+.b3_title {
+  font-family: "Poppins";
+  font-size: 72px;
+  font-weight: 700;
+  padding-bottom: 45px;
+}
+
+.b3_text {
+  font-family: "Poppins";
+  font-size: 32px;
+  font-weight: 400;
+  padding-bottom: 94px;
+}
+
+.b3_card img {
+  border: 6px solid #ffffff;
+  margin-bottom: 45px;
+}
+
+.b3_card h3 {
+  font-family: "Poppins";
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.b3_card p {
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 300;
+}
+
+
+/* block 4  */
+
+.b4_back {
+  position: absolute;
+  z-index: 1;
+  top: 295px;
+  right: 40px;
+}
 
 /* footer */
 
 .back_footer {
   background-color: #343434;
 }
+
+
 
 

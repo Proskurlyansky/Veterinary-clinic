@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link rel="icon" href="img/icon.png" type="image">
   <script src="https://kit.fontawesome.com/12d31eaa8d.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -26,16 +26,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav m-auto nav_menu">
                 <li class="nav-item">
-                  <a class="nav-link text-white" href="#">Home</a>
+                  <a class="nav-link text-white nav_link" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white" href="#">About</a>
+                  <a class="nav-link text-white nav_link" href="#f_send">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white" href="#">Service</a>
+                  <a class="nav-link text-white nav_link" href="#f_send">Service</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white" href="#">Contact</a>
+                  <a class="nav-link text-white nav_link" href="#f_send">Contact</a>
                 </li>
               </ul>
               <form class="form-inline my-2 my-lg-0">
@@ -51,7 +51,7 @@
   
   <section class="back_color">
     <div class="container b1_container"> 
-      <div class="row m-0">
+      <div class="row m-auto">
         <div class="col-7 m-auto">
           <div class="b1_title_text">First I wanted to be a veterinarian</div>
           <div class="b1_text">Lorem Ipsum available but the majority have
@@ -62,7 +62,7 @@
             <div class="b1_button_2"><a href="#">Our Service</a></div>
           </div>
         </div>
-        <div class="col-5 img_dog m-auto">
+        <div class="col-5 img_dog">
           <img src="img/b1_img.png" alt="">
         </div>
       </div>
@@ -77,7 +77,7 @@
           suffered alteration in some form, by
           humour randomised words.</div>
         <div class="d-flex text-center mt-3">
-          <div class="b2_button"><a href="#">Our Service</a></div>
+          <div class="b2_button mt-2"><a href="#">Our Service</a></div>
         </div>
       </div>
       <div class="col-6 b2_img">
@@ -151,7 +151,7 @@
           suffered alteration in some form, by
           humour randomised words.</div>
         <div class="float-right">
-          <div class="b2_button"><a href="#">Our Service</a></div>
+          <div class="b2_button mt-3"><a href="#">Our Service</a></div>
         </div>
       </div>
     </div>
@@ -212,7 +212,12 @@
           <img src="img/b6_img_1.png" alt="">
           <h3>Jennifer Mullen</h3>
           <p>VETERINARY</p>
-          
+          <div class="b6_icon">
+            <a class="pr-3" href="https://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a class="pr-3" href="https://www.facebook.com/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            <a class="pr-3" href="https://twitter.com"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            <a class="pr-3" href="https://www.whatsapp.com/"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+          </div>
         </div>
     </div>
       <div class="col-4">
@@ -220,7 +225,12 @@
           <img src="img/b6_img_2.png" alt="">
           <h3>Sheeren Collins</h3>
           <p>ADMINISTRATION</p>
-
+          <div class="b6_icon">
+            <a class="pr-3" href="https://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a class="pr-3" href="https://www.facebook.com/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            <a class="pr-3" href="https://twitter.com"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            <a class="pr-3" href="https://www.whatsapp.com/"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+          </div>
         </div>
       </div>
       <div class="col-4">
@@ -228,14 +238,11 @@
           <img src="img/b6_img_3.png" alt="">
           <h3>Jennifer Mullen</h3>
           <p>VETERINARY</p>
-          <div>
-            <a href="#">
-              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33" fill="black" height="33" viewBox="0 0 33 33"><g><g><image width="33" height="33" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAEUUlEQVRYR7WYaahXVRTFf6vMZrRJbc6CCCGaLWhwyCgMJRtpoIFI6oNlUKgQ9SEoMSvSoMFogApKMRuNtEwloqwgwYTC1CLLTFQqCU1WrMe98vd2/m8o34YH7909nHX22eMTPSDb5wLDgNOBE4FBwD7AX8AvwLfAV8BiSZ9017S6ErS9J3BH9TOkK/kW/grgaeApSTs60+sUhO0rgUeA43pweFN0DXCvpDntbLQFYftZ4Lb/cXhTdZak8SV7/wJhO98WAiN3I4Da1EfAKElutV0CsRQ4rxcA1CaXSrqgLQjbLwI39SKA2vRLkm6u/9jpCdtjgLc6AbAI+ABYDfwBbKtk49raTl/ggCqQLwIu7MTeWElvh9+hXKXhJuDAgtKvwGWSPu2ph2yfAcwDjiro/g4clPStQUwAZhQEk98nSFpr+zrgBuBYYF+gT4sHOu4C/A3sUX2fLmmm7RS0tUC81KQ7I1ODWAccXhCaKmmK7SnAQz3wxDdACtuTkibYvg94sKC/TtKRsj0cyHuX6FBJG23vklINwc1A/5ZvKUzTbY8F3gT2qrzwZ5szRgTEVGBSQWC7pL62Uy0TjK2UwLwHeK4uybZvBR4H4oVrqyx7ADhF0nLb0dm/cM60gFiQAlJgbpJ0sO1zgNag/K0yvM52v/wOrKg8NgD4sfH+KU4f2v65anjNoxYGxE/AEaWskDTQdrrmxy38oZKW2U5PiTdqmiHpLtsnA8tbvl8q6T3bPwBHF85ZFRBbq2hv8tdLGtSImWWShtq+BJhfMHiFpLm2lwDnV/yOemA7GXJMQWdzQLR7qxKIJyRNtP0uMLpgcImkYbYfBiZ3E8TWnnriGUm3234ZuL4AYp6kcbYToBO7CaLDE+0CpuSJ1ZKOt30SsLIA4lRJX9sOLzKhMZLe6eQ5vg+ItNcRBYMbJA2wnY63uIU/XtKsqg6kgA0GEnT3S5ptOx6Kp2oaLWm+7WRNqXwvCohmlNfKWyT1t30W8HkDZHpJCtEu1CZgR0paZDsz6MDCZR8NiHS6DDFN2iGpj+3k/voCfy6Q1v9d+gtwI3B1QW6wpDW2MwzvXeCPCoj0jxxyWEFgiKSVtlNy9yvwu/pUXyT1IU/WpA3xTt3AUnTyLE16Q9Llti8G3u/qxAK/49k6yaaOPlODSJvdUu0QTVvjJM2zfUg1+Mb16QF1a46NusFtB+K1VcDzktZ3UtjyPP0kbWudrPKer7W57SRJ03rqCdt3A4+10btG0uvh7TLo2p4NZNcoUSahbFeZPXLb3Lq1xcdW2nZiJ73otNy0ja05kq6qeaVp+wsgY1lv0ZeSzmw1XgKR3TJd8+xeQPEZMFxS4mEndbaBvQJkrtxd9KqkUr/ZNSaap9m+BcjklYL1XynT+mRJL7Qz0J2tPHtEpvHskT1ZjLMIZ5+dKSnjQlvqEkStaTujfBaa+v8TaVypHakXWYQ2VrNoMigxtaC5c7ZD8Q9pjs6rs8aATQAAAABJRU5ErkJggg=="/></g></g></svg>
-              </svg>
-            </a>
-            <a href="#"></a>
-            <a href="#"></a>
-            <a href="#"></a>
+          <div class="b6_icon">
+            <a class="pr-3" href="https://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a class="pr-3" href="https://www.facebook.com/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            <a class="pr-3" href="https://twitter.com"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            <a class="pr-3" href="https://www.whatsapp.com/"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
           </div>
         </div>
       </div>
@@ -341,14 +348,14 @@
       </div>
     </div>
   </div>
-  <footer class="back_footer">
+  <footer class="back_footer"> <!-- footer -->
     <div class="container text-white pb-5 pt-5">
-      <div class="row text-center">
+      <!-- <div class="row text-center">
         <div class="col-12 pb-3">
           <a class="d-block float-center" href="#" id="f_send">Send message</a>
         </div>
-      </div>
-      <div class="row">
+      </div> -->
+      <div class="row pt-5">
         <div class="col-3">
           <h3 class="f_text_3">About</h3>
           <div class="f_text pt-3">
@@ -372,11 +379,17 @@
         <div class="col-6 text-right">
           <h3 class="f_text_3">Title Here</h3>
           <p class="f_text_p pt-3">Lorem Ipsum available, but the majorit</p>
-          <div class="input-group float-right">
-            <input type="text" class="form-control f_search" placeholder="" aria-label="" aria-describedby="basic-addon1">
+          <div class="input-group">
+            <input type="text" class="form-control f_search rounded-0" placeholder="" aria-label="" aria-describedby="basic-addon1">
             <div class="input-group-append">
-              <button class="btn f_button" type="button">svg</button>
+              <button class="btn f_button rounded-0" type="button"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
             </div>
+          </div>
+          <div class="f_icon mt-5">
+            <a class="pr-2" href="https://www.instagram.com"><img src="img/f_svg_1.svg" alt=""></a>
+            <a class="pr-2" href="https://www.facebook.com/"><img src="img/f_svg_2.svg" alt=""></a>
+            <a class="pr-2" href="https://twitter.com"><img src="img/f_svg_3.svg" alt=""></a>
+            <a class="pr-2" href="https://www.whatsapp.com/"><img src="img/f_svg_4.svg" alt=""></a>
           </div>
         </div>
       </div>
